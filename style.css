@@ -13,7 +13,7 @@
     header {
         font-family: 'Bebas Neue';
         background-color: transparent;
-        /* box-shadow: 2px 2px 4px #000000; */
+        box-shadow: 2px 2px 4px #000000;
         width: 100%;
         position: sticky;
         top: 0;
@@ -28,20 +28,6 @@
         z-index: 1;
     }
 
-        /* :root {
-            --white: #f9f9f9;
-            --black: #36383F;
-            --gray: #85888C;
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        ul {
-            list-style: none;
-        } */
-
     .container {
         flex-direction: row;
     }
@@ -52,8 +38,8 @@
         position: relative;
         transform-style: preserve-3d;
         transition: all 0.5s ease;
-        /* display: inline-block;
-        margin-left: 10px; */
+        display: inline-block;
+        margin-left: 10px;
     }
 
     .website-logo:hover{
@@ -73,84 +59,9 @@
         margin-top: auto;
     }
 
-        /* .hamb {
-            cursor: pointer;
-            float: right;
-            padding: 40px 20px;
-        }
-
-        .hamb-line {
-            background-color: #25274D;
-            display: block;
-            height: 2px;
-            position: relative;
-            width: 24px;
-        }
-
-        .hamb-line::before,
-        .hamb-line::after{
-            background: var(--white);
-            content: '';
-            display: block;
-            height: 100%;
-            position: absolute;
-            transition: all .2s ease-out;
-            width: 100%;
-        }
-
-        .hamb-line::before{
-            top: 5px;
-        }
-
-        .hamb-line::after{
-            top: -5px;
-        }
-
-        .side-menu {
-            display: none;
-        }    
-
-        .side-menu:checked ~ nav{
-            max-height: 100%;
-        }
-        .side-menu:checked ~ .hamb .hamb-line {
-            background: transparent;
-        }
-        .side-menu:checked ~ .hamb .hamb-line::before {
-            transform: rotate(-45deg);
-            top:0;
-        }
-        .side-menu:checked ~ .hamb .hamb-line::after {
-            transform: rotate(45deg);
-            top:0;
-        }
-
-        @media (min-width: 768px) {
-            .nav{
-                max-height: none;
-                top: 0;
-                position: relative;
-                float: right;
-                width: fit-content;
-                background-color: transparent;
-            }
-            .menu li{
-                float: left;
-            }
-            .menu a:hover{
-                background-color: transparent;
-                color: var(--gray);
-        
-            }
-        
-            .hamb{
-                display: none;
-            }
-        } */
-
     .menu a {
         display: block;
-        padding: 30px;
+        padding: 50px;
         color: #464866;
     }
 
