@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniah Muti - Full-Stack Web Developer & Graphic Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  </head>
+<body>
+  <header>
+  <!-- <header class="header">
+    <img src="./logo.png" class="website-logo" alt="website-logo">
+    <input class="side-menu" type="checkbox" id="side-menu">
+    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+    <nav class="nav">
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav> -->
+
+    <img src="./logo.png" class="website-logo" alt="website-logo">
+    <nav>
+      <ul class="nav-menu">
+        <div>
+          <li><a href="#home">Home</a></li>
+        </div>
+        <div>
+          <li class="about-us"><a href="#about">About</a></li>
+          <ul class="about-sub-nav"> 
+            <li><a href="#resume">Resume</a></li>
+          </ul>  
+        </div>
+        <div>
+          <li><a href="#projects">Projects</a></li>
+        </div>
+        <div>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+
+  <br/>
+  <br/>
+  <br/>
+  <main id="home">
+    <div id="title" style="position: relative; text-align: center; list-style-type: none; visibility:inherit;">
+      <img src='./background-with-gif.gif' style="width: 100%; opacity: 0.8; color: #25274D; border-radius: 25px;">
+        <div style="top: 50%; left: 50%; position: absolute; transform: translate(-50%,-50%); border-radius: 25px; padding: 20px;">
+         <center>
+          <font size="+3" class="typewriter">
+            <h1 style="text-shadow: 2px 2px 4px #000000;">Daniah "Dan" Muti</h1>
+          </font>
+          <font size="+1">
+            <h2 style="text-shadow: 2px 2px 4px #000000;">Full-Stack Web Developer & Graphic Designer</h2>
+          </font>
+         </center>
+        </div>
+    </div>
+  
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div id="about"></div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <br/>
+    <br/>
+    <div style="margin-left: 20vw; margin-right: 30vw; align-items: center;">
+      <h2 style="text-shadow: 2px 2px 4px #000000;">ABOUT</h2>
+      <p>Hi, call me Dan. I'm previously a healthcare worker who shifted to coding.
+      <br/>My love for surfing the internet and creativity eventually led me to, 
+      <br/>not just do graphic design, but also dig deep on how to make websites.
+      </p>
+
+      <!-- <br/>
+      <table border="1" cellpadding="45" class="fixed" class="d" style="width: 85%;">
+        <thead>
+          <td style="text-align: center">
+            <img src="./about-table/2.png" alt="full-stack-web-developer-icon" width="80px"><br/>
+            <p style="font-family: 'Montserrat'; font-size: 20px; color: #2E9CCA; text-shadow: 2px 2px 4px #000000;">Web Development</p>
+            <hr/>Experience in web designing using HTML, CSS, JavaScript, etc.
+          </td>
+
+          <td style="text-align: center">
+            <img src="./about-table/1.png" alt="graphic-designer-icon" width="80px"><br/>
+            <p style="font-family: 'Montserrat'; font-size: 20px; color: #2E9CCA; text-shadow: 2px 2px 4px #000000;">Graphic Designing</p>
+            <hr/>Experience in graphic designing using Adobe, Canva or any editing software.
+          </td>
+        </thead>
+      </table> -->
+
+      <br/>
+      <div class="flex-container">
+        <div class="aboutBorder">
+          <i class="fa-solid fa-code fa-2xl" style="color: #ffffff;  margin-left: 112px; margin-top: 45px;"></i>
+          <!-- <img src="./about-table/4.png" alt="web-developer-icon" width="80px" style="text-align: center;"> -->
+          <h1 style="color: rgb(46, 156, 202); background-color: #464866; font-size: 25px; text-align: center; margin-top: 25px;">Web Development</h1>
+          <br/>
+          <p style="font-size: 15px; text-align: center; font-family: 'Montserrat'; text-shadow: none; margin-left: 1px; margin-top: 5px;">Experienced in web designing using HTML, CSS, JavaScript, etc.</p>
+        </div>
+
+        <br/>
+        <div class="aboutBorder">
+          <i class="fa-solid fa-object-group fa-2xl" style="color: #ffffff;  margin-left: 112px; margin-top: 45px;"></i>
+          <!-- <img src="./about-table/3.png" alt="graphic-designer-icon" width="80px" style="text-align: center;"> -->
+          <h1 style="color: rgb(46, 156, 202); background-color: #464866; font-size: 25px; text-align: center; margin-top: 25px;">Graphic Designing</h1>
+          <br/>
+          <p id="resume" style="font-size: 15px; text-align: center; font-family: 'Montserrat'; text-shadow: none; margin-left: 1px; margin-top: 5px;">Experienced in graphic designing using Adobe, Canva or any editing software.</p>
+        </div>
+      </div>        
+    </div>
+    
+    <br/>
+    <br/>
+    <br/>
+    <div style="margin-left: 20vw;">
+      <h2 style="text-shadow: 2px 2px 4px #000000;">RESUME</h2>
+       <details style="border-radius: 20px;">
+          <summary style="border-radius: 20px;">2022 - 2023 | Virtual Assistant <i>@ Lantern Institute and Engineering Services</i></summary>
+          <img src="./1-work.png" alt="1-work" width="90px" height="90px">
+          <br/>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quas necessitatibus aliquam 
+          <br/>quae inventore obcaecati fugiat explicabo, veniam commodi ipsam, adipisci animi labore 
+          <br/>voluptatum ut quibusdam! Temporibus soluta eum recusandae.
+       </details>
+      
+        <details style="border-radius: 20px;">
+          <summary style="border-radius: 20px;">2023 - 2023 | Reliever, Phlebotomist <i>@ CDO Polymedic Plaza</i></summary>
+          <img src="./2-work.png" alt="2-work" width="90px" height="90px">
+          <br/>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quas necessitatibus aliquam
+          <br/>quae inventore obcaecati fugiat explicabo, veniam commodi ipsam, adipisci animi labore 
+          <br/>voluptatum ut quibusdam! Temporibus soluta eum recusandae.
+        </details>
+
+        <details style="border-radius: 20px;">
+          <summary style="border-radius: 20px;">2020 - 2020 | Health Program Officer I (Swabber) <i>@ Department of Health (Philippines)</i></summary>
+          <img src="./3-work.png" alt="3-work" width="90px" height="90px">
+          <br/>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quas necessitatibus aliquam 
+          <br/>quae inventore obcaecati fugiat explicabo, veniam commodi ipsam, adipisci animi labore 
+          <br/>voluptatum ut quibusdam! Temporibus soluta eum recusandae.
+        </details>
+
+        <details style="border-radius: 20px;">
+          <summary style="border-radius: 20px;">2016 - 2019 | Social Media Manager <i>@ Bic-Bic's Online Shop</i></summary>
+          <img src="./4-work.png" alt="4-work" width="90px" height="90px">
+          <br/>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quas necessitatibus aliquam 
+          <br/>quae inventore obcaecati fugiat explicabo, veniam commodi ipsam, adipisci animi labore
+          <br/>voluptatum ut quibusdam! Temporibus soluta eum recusandae.
+        </details>
+      
+        <details style="border-radius: 20px;">
+          <summary style="border-radius: 20px;">2018 - 2019 | Medical Technology Student Intern <i>@ CUMC & MRXUH</i></summary>
+          <img src="./6-work.png" alt="6-work" width="90px" height="90px">
+          <img src="./5-work.png" alt="5-work" width="90px" height="90px">
+          <p id="projects">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quas necessitatibus aliquam
+          <br/>quae inventore obcaecati fugiat explicabo, veniam commodi ipsam, adipisci animi labore
+          <br/>voluptatum ut quibusdam! Temporibus soluta eum recusandae.</p>
+        </details>
+    </div>
+
+    <br/>
+    <br/>
+    <br/>
+    <div style="margin-left: 20vw; border-radius: 20px;">
+      <h2 style="text-shadow: 2px 2px 4px #000000;">PROJECTS</h2>
+      <div>
+        <div>
+          <img src="./first-website-project.gif" class="hp" alt="first-website-project-gif" width="400px" height="200px" style="border: 5px solid; border-color: #2E9CCA; box-shadow: 2px 2px 4px #000000; border-radius: 20px;">
+        </div>
+        <div>
+          <h3 class="transition"><i><u>Travel Blog: 1st Exercise</u></i></h3>
+        </div>
+        <div>
+          <p>Lorem, ipsum dolor sit amet consectetur 
+          <br/>adipisicing elit. Quo quas necessitatibus 
+          <br/>aliquam quae inventore obcaecati fugiat 
+          <br/>explicabo, veniam commodi ipsam, adipisci 
+          <br/>animi labore voluptatum ut quibusdam!</p>
+        </div>
+      </div>
+
+      <br/>
+      <div>
+        <div>
+          <img src="./empty-shelves-john-travolta.gif" class="hp" alt="empty-shelves-john-travolta-gif" width="400px" height="200px" style="border: 5px solid; border-color: #2E9CCA; box-shadow: 2px 2px 4px #000000; border-radius: 20px;">
+        </div>
+        <div>
+          <h3 class="transition"><i><u>Bic-Bic's Online Shop</u></i></h3>
+        </div>
+        <div>
+          <p>Lorem, ipsum dolor sit amet consectetur 
+          <br/>adipisicing elit. Quo quas necessitatibus 
+          <br/>aliquam quae inventore obcaecati fugiat 
+          <br/>explicabo, veniam commodi ipsam, adipisci 
+          <br/>animi labore voluptatum ut quibusdam!</p>  
+        </div>
+      </div>
+
+      <br/>
+      <div>
+        <img src="./confused-ice.gif" class="hp" alt="confused-ice-gif" width="400px" height="200px" style="border: 5px solid; border-color: #2E9CCA; box-shadow: 2px 2px 4px #000000; border-radius: 20px;">
+        <h3 class="transition"><i><u>#SpreadingAwareness Project</u></i></h3>
+        <p>Lorem, ipsum dolor sit amet consectetur 
+        <br/>adipisicing elit. Quo quas necessitatibus 
+        <br/>aliquam quae inventore obcaecati fugiat 
+        <br/>explicabo, veniam commodi ipsam, adipisci 
+        <br/>animi labore voluptatum ut quibusdam!</p>
+      </div>
+
+      <br/>
+      <div>
+        <div>
+          <img src="./calculating-puzzled.gif" class="hp" alt="calculating-puzzled-gif" width="400px" height="200px" style="border: 5px solid; border-color: #2E9CCA; box-shadow: 2px 2px 4px #000000; border-radius: 20px;">
+        </div>
+        <div>
+          <h3 class="transition"><i><u>Lantern Institute and Engineering Services</u></i></h3>
+        </div>
+        <div>
+          <p>Lorem, ipsum dolor sit amet consectetur 
+          <br/>adipisicing elit. Quo quas necessitatibus 
+          <br/>aliquam quae inventore obcaecati fugiat 
+          <br/>explicabo, veniam commodi ipsam, adipisci 
+          <br/>animi labore voluptatum ut quibusdam!</p>
+        </div>
+      </div>
+
+      <br/>
+      <div>
+        <div>
+          <img src="./confused-nick-young.gif" class="hp" alt="confused-nick-young-gif" width="400px" height="200px" style="border: 5px solid; border-color: #2E9CCA; box-shadow: 2px 2px 4px #000000; border-radius: 20px;">
+        </div>
+        <div>
+          <h3 class="transition"><i><u>YoungDongSun: Personal Brand</u></i></h3>
+        </div>
+        <div>
+          <p>Lorem, ipsum dolor sit amet consectetur 
+            <br/>adipisicing elit. Quo quas necessitatibus 
+            <br/>aliquam quae inventore obcaecati fugiat 
+            <br/>explicabo, veniam commodi ipsam, adipisci 
+            <br/>animi labore voluptatum ut quibusdam!</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <br/>
+  <br/>
+  <br/>
+  <div id="contact">
+    <footer class="social-media" style="margin-left: 31vw;"> 
+      <h2 style="text-shadow: 2px 2px 4px #000000;">CONTACT</h2>
+      <a href="https://www.facebook.com/messages/t/100069665295943" target="_blank"><i class="fa-brands fa-facebook-messenger fa-2xl" style="color: #ffffff;"></i></a>
+      <a href="https://www.linkedin.com/in/dan-niah/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
+      <a href="#" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i></a>
+      <a href="https://linktr.ee/dan_niah" target="_blank"><i class="fa-solid fa-link fa-2xl" style="color: #ffffff;"></i></a>
+    </footer> 
+  </div>
+  
+  <br/>
+  <br/>
+  <br/>
+</body>
+</body>
+</html>
