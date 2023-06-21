@@ -207,15 +207,6 @@
         padding: 20px;
     }
 
-    /* .vertical {
-        border-left: 3px solid white;
-        margin-bottom: 100px;
-        margin-right: 50px;
-        height: 80px;
-        position: relative;
-        left: 15%;
-    } */
-
     details {
         border: 1px solid #2E9CCA;
         padding: .75em .75em 0;
