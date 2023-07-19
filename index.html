@@ -1,244 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daniah Muti - Full-Stack Web Developer & Graphic Designer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  </head>
-<body>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daniah M. | Full-Stack Web Developer</title>
+  <link rel="icon" type="image/png" href="./logo.png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-dark">
   <header>
 
-    <img src="./logo.png" class="website-logo" alt="website-logo">
-    <nav>
-      <ul class="nav-menu">
-        <div>
-          <li><a href="#home">Home</a></li>
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container">
+        <span class="navbar-brand mb-0 h1"><img src="./logo.png" class="website-logo" alt="website-logo" style="width: 100px; height: 100px;"></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="alig">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.facebook.com/messages/t/100069665295943" target="_blank"><i class="fa-brands fa-facebook-messenger fa-2xl" style="color: #ffffff;"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/dan-niah/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://github.com/daniah-muti" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://linktr.ee/dan_niah" target="_blank"><i class="fa-solid fa-link fa-2xl" style="color: #ffffff;"></i></a>
+              </li>
+            </ul>
+          </div>
+          
         </div>
-        <div>
-          <li><a href="#about">About</a></li> 
-        </div>
-        <div>
-          <li><a href="#resume">Resume</a></li>
-        </div>
-        <div>
-          <li><a href="#projects">Projects</a></li>
-        </div>
-        <div>
-          <li><a href="#contact">Contact</a></li>
-        </div>
-      </ul>
+      </div>
     </nav>
   </header>
 
-  <br/>
-  <br/>
-  <br/>
-  <main id="home">
-    <div id="title" style="position: relative; text-align: center; list-style-type: none; visibility:inherit;">
-      <img src='./background-with-gif.gif' style="width: 100%; opacity: 0.8; color: #25274D; border-radius: 25px;">
-        <div style="top: 50%; left: 50%; position: absolute; transform: translate(-50%,-50%); border-radius: 25px; padding: 20px;">
-         <center>
-          <font size="+3" class="typewriter">
-            <h1 style="text-shadow: 2px 2px 4px #000000;">Daniah "Dan" Muti</h1>
-          </font>
-          <font size="+1">
-            <h2 style="text-shadow: 2px 2px 4px #000000;">Full-Stack Web Developer & Graphic Designer</h2>
-          </font>
-         </center>
-        </div>
-    </div>
-  
+  <main class="bg-dark">
+    <p class="h1 text-center text-light" data-aos="fade-right">FULL-STACK <span class="web-dev">WEB DEVELOPER</span>.</p>
     <br/>
-    <br/>
-    <br/>
-    <br/>
-    <div id="about"></div>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-
-    <br/>
-    <br/>
-    <div style="margin-left: 20vw; margin-right: 30vw; align-items: center;">
-      <h2 style="text-shadow: 2px 2px 4px #000000;">ABOUT</h2>
-      <p>Hi, call me Dan. I'm previously a healthcare worker who shifted to coding.
-      <br/>My love for surfing the internet and creativity eventually led me to, 
-      <br/>not just do graphic design, but also dig deep on how to make websites.
-      </p>
-
-      <br/>
-      <div class="flex-container">
-        <div class="aboutBorder">
-          <i class="fa-solid fa-code fa-2xl" style="color: #ffffff;  margin-left: 112px; margin-top: 45px;"></i>
-          <!-- <img src="./about-table/4.png" alt="web-developer-icon" width="80px" style="text-align: center;"> -->
-          <h1 style="color: rgb(46, 156, 202); background-color: #464866; font-size: 25px; text-align: center; margin-top: 25px;">Web Development</h1>
-          <br/>
-          <p style="font-size: 15px; text-align: center; font-family: 'Montserrat'; text-shadow: none; margin-left: 1px; margin-top: 5px;">Experienced in web designing using HTML, CSS, JavaScript, etc.</p>
-        </div>
-
-        <br/>
-        <div class="aboutBorder">
-          <i class="fa-solid fa-object-group fa-2xl" style="color: #ffffff;  margin-left: 112px; margin-top: 45px;"></i>
-          <!-- <img src="./about-table/3.png" alt="graphic-designer-icon" width="80px" style="text-align: center;"> -->
-          <h1 style="color: rgb(46, 156, 202); background-color: #464866; font-size: 25px; text-align: center; margin-top: 25px;">Graphic Designing</h1>
-          <br/>
-          <p id="resume" style="font-size: 15px; text-align: center; font-family: 'Montserrat'; text-shadow: none; margin-left: 1px; margin-top: 5px;">Experienced in graphic designing using Adobe, Canva or any editing software.</p>
-        </div>
-      </div>        
-    </div>
-    
-    <br/>
-    <br/>
-    <br/>
-    <div style="margin-left: 20vw;">
-      <h2 style="text-shadow: 2px 2px 4px #000000;">RESUME</h2>
-       <details style="border-radius: 20px; background-color: #2f8eb6;">
-          <summary style="border-radius: 20px;">2022 - 2023 | Virtual Assistant <i>@ Lantern Institute and Engineering Services</i></summary>
-          <img src="./1-work.png" alt="1-work" width="90px" height="90px">
-          <br/>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quas necessitatibus aliquam 
-          <br/>quae inventore obcaecati fugiat explicabo, veniam commodi ipsam, adipisci animi labore 
-          <br/>voluptatum ut quibusdam! Temporibus soluta eum recusandae.
-       </details>
-      
-        <details style="border-radius: 20px; background-color: #2f8eb6;">
-          <summary style="border-radius: 20px;">2023 - 2023 | Reliever, Phlebotomist <i>@ CDO Polymedic Plaza</i></summary>
-          <img src="./2-work.png" alt="2-work" width="90px" height="90px">
-          <br/>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quas necessitatibus aliquam
-          <br/>quae inventore obcaecati fugiat explicabo, veniam commodi ipsam, adipisci animi labore 
-          <br/>voluptatum ut quibusdam! Temporibus soluta eum recusandae.
-        </details>
-
-        <details style="border-radius: 20px; background-color: #2f8eb6;">
-          <summary style="border-radius: 20px;">2020 - 2020 | Health Program Officer I (Swabber) <i>@ Department of Health (Philippines)</i></summary>
-          <img src="./3-work.png" alt="3-work" width="90px" height="90px">
-          <br/>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quas necessitatibus aliquam 
-          <br/>quae inventore obcaecati fugiat explicabo, veniam commodi ipsam, adipisci animi labore 
-          <br/>voluptatum ut quibusdam! Temporibus soluta eum recusandae.
-        </details>
-
-        <details style="border-radius: 20px; background-color: #2f8eb6;">
-          <summary style="border-radius: 20px;">2019 - 2019 | Social Media Manager <i>@ Bic-Bic's Online Shop</i></summary>
-          <img src="./4-work.png" alt="4-work" width="90px" height="90px">
-          <br/>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quas necessitatibus aliquam 
-          <br/>quae inventore obcaecati fugiat explicabo, veniam commodi ipsam, adipisci animi labore
-          <br/>voluptatum ut quibusdam! Temporibus soluta eum recusandae.
-        </details>
-      
-        <details style="border-radius: 20px; background-color: #2f8eb6;">
-          <summary style="border-radius: 20px;">2018 - 2019 | Medical Technology Student Intern <i>@ CUMC & MRXUH</i></summary>
-          <img src="./6-work.png" alt="6-work" width="90px" height="90px">
-          <img src="./5-work.png" alt="5-work" width="90px" height="90px">
-          <p id="projects">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo quas necessitatibus aliquam
-          <br/>quae inventore obcaecati fugiat explicabo, veniam commodi ipsam, adipisci animi labore
-          <br/>voluptatum ut quibusdam! Temporibus soluta eum recusandae.</p>
-        </details>
-    </div>
-
-    <br/>
-    <br/>
-    <br/>
-    <div style="margin-left: 20vw; border-radius: 20px;">
-      <h2 style="text-shadow: 2px 2px 4px #000000;">PROJECTS</h2>
-      <div>
-        <div>
-          <img src="./first-website-project.gif" class="hp" alt="first-website-project-gif" width="400px" height="200px" style="border: 5px solid; border-color: #2E9CCA; box-shadow: 2px 2px 4px #000000; border-radius: 20px;">
-        </div>
-        <div>
-          <h3 class="transition"><i><u>Travel Blog: 1st Exercise</u></i></h3>
-        </div>
-        <div>
-          <p>Lorem, ipsum dolor sit amet consectetur 
-          <br/>adipisicing elit. Quo quas necessitatibus 
-          <br/>aliquam quae inventore obcaecati fugiat 
-          <br/>explicabo, veniam commodi ipsam, adipisci 
-          <br/>animi labore voluptatum ut quibusdam!</p>
+    <div class="container accordion bg-dark" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button bg-light text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <strong class="code">ABOUT ME</strong>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body bg-dark text-light">
+            Call me <strong class="code">Dan</strong>. Eversince I discovered internet when I was 10 years old back in 2008, I've always been fascinated by websites to the point I made lots of social media accounts giving me solid familiarity and exposure to how typical websites work. 
+            I got introduced to <code class="code">coding</code> back in 2012 via <i>Tumblr</i> when theme-making was a thing. After taking the usual traditional route in healthcare profession, I finally got the courage to pursue <code class="code">coding</code> to let my creativity shine via websites. 
+            To get to know my background before <code class="code">coding</code>, I have my <u class="code">curriculum vitae</u> and my <u class="code">resume</u> provided below.
+            <br/>
+            <br/>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn-primary" type="button">Curriculum Vitae</button>
+              <button class="btn btn-primary" type="button">Resume</button>
+            </div>
+          </div>
         </div>
       </div>
-
-      <br/>
-      <div>
-        <div>
-          <img src="./empty-shelves-john-travolta.gif" class="hp" alt="empty-shelves-john-travolta-gif" width="400px" height="200px" style="border: 5px solid; border-color: #2E9CCA; box-shadow: 2px 2px 4px #000000; border-radius: 20px;">
-        </div>
-        <div>
-          <h3 class="transition"><i><u>Bic-Bic's Online Shop</u></i></h3>
-        </div>
-        <div>
-          <p>Lorem, ipsum dolor sit amet consectetur 
-          <br/>adipisicing elit. Quo quas necessitatibus 
-          <br/>aliquam quae inventore obcaecati fugiat 
-          <br/>explicabo, veniam commodi ipsam, adipisci 
-          <br/>animi labore voluptatum ut quibusdam!</p>  
-        </div>
-      </div>
-
-      <br/>
-      <div>
-        <img src="./confused-ice.gif" class="hp" alt="confused-ice-gif" width="400px" height="200px" style="border: 5px solid; border-color: #2E9CCA; box-shadow: 2px 2px 4px #000000; border-radius: 20px;">
-        <h3 class="transition"><i><u>#SpreadingAwareness Project</u></i></h3>
-        <p>Lorem, ipsum dolor sit amet consectetur 
-        <br/>adipisicing elit. Quo quas necessitatibus 
-        <br/>aliquam quae inventore obcaecati fugiat 
-        <br/>explicabo, veniam commodi ipsam, adipisci 
-        <br/>animi labore voluptatum ut quibusdam!</p>
-      </div>
-
-      <br/>
-      <div>
-        <div>
-          <img src="./calculating-puzzled.gif" class="hp" alt="calculating-puzzled-gif" width="400px" height="200px" style="border: 5px solid; border-color: #2E9CCA; box-shadow: 2px 2px 4px #000000; border-radius: 20px;">
-        </div>
-        <div>
-          <h3 class="transition"><i><u>Lantern Institute and Engineering Services</u></i></h3>
-        </div>
-        <div>
-          <p>Lorem, ipsum dolor sit amet consectetur 
-          <br/>adipisicing elit. Quo quas necessitatibus 
-          <br/>aliquam quae inventore obcaecati fugiat 
-          <br/>explicabo, veniam commodi ipsam, adipisci 
-          <br/>animi labore voluptatum ut quibusdam!</p>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button collapsed bg-light text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+            <strong class="code">PROJECTS</strong>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card text-bg-dark">
+                <img src="./first-website-project.gif" class="card-img" alt="first-website-project-gif">
+                <div class="card-img-overlay text-dark">
+                  <h5 class="card-title">Travel Blog</h5>
+                  <p class="card-text"><strong>Tools Used:</strong> HTML, CSS</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card text-bg-dark">
+                <img src="./first-website-project.gif" class="card-img" alt="first-website-project-gif">
+                <div class="card-img-overlay text-dark">
+                  <h5 class="card-title">HAQQu. (Formerly, Lantern Institute & Engineering Services)</h5>
+                  <p class="card-text"><strong>Tools Used:</strong> HTML, CSS, Bootstrap</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button collapsed bg-light text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+            <strong class="code">CONTACT</strong>
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body bg-dark text-light">
+            <form action="#" class="container"> 
 
-      <br/>
-      <div>
-        <div>
-          <img src="./confused-nick-young.gif" class="hp" alt="confused-nick-young-gif" width="400px" height="200px" style="border: 5px solid; border-color: #2E9CCA; box-shadow: 2px 2px 4px #000000; border-radius: 20px;">
-        </div>
-        <div>
-          <h3 class="transition"><i><u>YoungDongSun: Personal Brand</u></i></h3>
-        </div>
-        <div>
-          <p>Lorem, ipsum dolor sit amet consectetur 
-            <br/>adipisicing elit. Quo quas necessitatibus 
-            <br/>aliquam quae inventore obcaecati fugiat 
-            <br/>explicabo, veniam commodi ipsam, adipisci 
-            <br/>animi labore voluptatum ut quibusdam!</p>
+              <div class="row">
+                <div class="form-floating mb-3 col-sm-6">
+                  <input type="text" class="form-control" name="first-name" id="first-name" placeholder="John Doe" required>
+                  <label for="first-name" style="color: #000000;"> Full Name</label>
+                </div>
+                <div class="form-floating mb-3 col-sm-6">
+                  <input type="email" class="form-control" name="email-address" id="email-address" placeholder="hello@example.com" required/>
+                  <label for="email-address" style="color: #000000;"> Email</label>
+                </div>
+              </div>
+
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" name="first-name" id="first-name" placeholder="Insert Subject Here">
+                <label for="first-name" style="color: #000000;">Subject <span style="color:gray">(optional)</span></label>
+              </div>
+              
+              <div class="mb-3">
+                <label for="sample-text-area">Message <span style="color:gray">(optional)</span></label>
+                <textarea class="form-control" name="sample-text-area" id="sample-text-area" cols="30" rows="5"></textarea>
+              </div>
+        
+              <div class="d-grid col-1 mx-auto">
+                <a href="#" class="btn btn-primary">SUBMIT</a>
+              </div>   
+        
+            </form>
+          </div>
         </div>
       </div>
     </div>
   </main>
 
-  <br/>
-  <br/>
-  <br/>
-  <div id="contact">
-    <footer class="social-media" style="margin-left: 31vw;"> 
-      <h2 style="text-shadow: 2px 2px 4px #000000;">CONTACT</h2>
-      <a href="https://www.facebook.com/messages/t/100069665295943" target="_blank"><i class="fa-brands fa-facebook-messenger fa-2xl" style="color: #ffffff;"></i></a>
-      <a href="https://www.linkedin.com/in/dan-niah/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></a>
-      <a href="https://github.com/daniah-muti" target="_blank"><i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i></a>
-      <a href="https://linktr.ee/dan_niah" target="_blank"><i class="fa-solid fa-link fa-2xl" style="color: #ffffff;"></i></a>
-    </footer> 
-  </div>
-  
-  <br/>
-  <br/>
-  <br/>
-</body>
+  <footer class="container-fluid bg-dark text-light">  
+    <br/>
+    <br/>
+    <div class="row">
+      <div class="list-font">
+        <p class="text-center">&copy; 2023 | Daniah M.</p>
+      </div>
+      <br/>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>
